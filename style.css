@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(230, 230, 230);
+}
+
+.title {
+    font-size: 30px;
+    width: 800px;
+    padding: 20px;
+}
+
+section {
+    margin: 0px;
+    font-size: 20px;
+    font-family: arial, sans-serif;
+    width: 1000px;
+    position: absolute;
+    left: 50%;
+    margin: 0 0 0 -500px;
+}
+
+.block {
+    width: 800px;
+    padding: 20px;
+}
+
+.block>.question {
+    height: 20%;
+    width: 800px;
+    background-color: rgba(144, 255, 186, 0.788);
+    padding: 15px;
+}
+
+.block>.answer {
+    height: 80%;
+    width: 800px;
+    padding: 15px;
+    line-height: 40px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
